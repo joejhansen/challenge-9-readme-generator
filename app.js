@@ -96,7 +96,7 @@ ${answer.contributionGuidelines}
 ## Tests
     
 ${answer.testInstructions}`
-    fs.writeFile('./README.md', `${markdown}`, function(err){
+    fs.writeFile('./exampleREADME.md', `${markdown}`, function(err){
         if(err) return (err);
     })
 })
